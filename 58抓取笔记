@@ -1,0 +1,16 @@
+1.通过网络监控捕获
+	分类接口
+		https://api.58.com/comm/cate/?api_type=json&api_pid=9224
+	岗位数据接口
+		https://zprecommend.58.com/api/abtest?ptype=pc_detail_new&dispcateid=9640&displocalid=536&page=1&postdate=2019017_20190220
+
+2.监控岗位详情页捕获
+	企业信息接口
+		https://qy.58.com/ajax/getBusinessInfo
+	企业信息接口调用天眼查
+		https://zpservice.58.com/numberProtection/biz/enterprise/pcBind/?uid=29498321340676
+		view-source:https://www.tianyancha.com/search?key=%E6%B0%B8%E5%BA%B7%E5%B8%82
+3.电话号码为加密信息，浏览
+	https://j1.58cdn.com.cn/n/js/qy/entdetail_v20181129183901.js
+		文件，找到加密解密方案，使用python实现解密方案，见 uni_decrypt.py
+
