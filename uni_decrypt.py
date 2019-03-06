@@ -16,7 +16,6 @@ class AESCipher:
 
     def unpad(self, s):
         "去掉解码后的补充位"
-        print("-------------", s[:(-ord(s[len(s) - 1:]))])
         return s[:(-ord(s[len(s) - 1:]))]
 
     def encrypt(self, raw):

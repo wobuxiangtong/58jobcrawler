@@ -13,4 +13,7 @@
 3.电话号码为加密信息，浏览
 	https://j1.58cdn.com.cn/n/js/qy/entdetail_v20181129183901.js
 		文件，找到加密解密方案，使用python实现解密方案，见 uni_decrypt.py
-
+	https://zpservice.58.com/numberProtection/biz/enterprise/pcBind/?uid=57432810166806
+4.58同城电话号码及天眼查信息需要登录才能获取，通过账号密码模拟登陆总弹出手机验证，故直接采用手机验证码模拟登录
+	见
+		tianyancha_login_by_mobel.py & tongcheng_login_by_mobel.py
